@@ -1,13 +1,27 @@
 ---
 layout: post
-title:  gay
+title:  too
 date:   2017-06-11 16:40:16
-description: gayyyy
+description: foo
 ---
 This post is
 
 ---
 
-# Gay
+# woo
+
+## second header
+
+### a smaller one
+
+- lists
+- go
+- like
+- this
+
+**bold**
+
+*italic?*
+
 
 ---
