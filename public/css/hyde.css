@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Oswald";
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
