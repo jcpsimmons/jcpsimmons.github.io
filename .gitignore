@@ -1,3 +1,8 @@
+# Ignore docs files
+_gh_pages
+_site
+.ruby-version
+
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -24,16 +29,13 @@ nbproject
 *.sublime-workspace
 .idea
 
+# Komodo
+*.komodoproject
+.komodotools
+
+# grunt-html-validation
+validation-status.json
+validation-report.json
+
 # Folders to ignore
 node_modules
-
-# AMSF specified
-.amsf-cache
-.jekyll-metadata
-_site
-_app/assets/**/js
-_app/assets/**/css
-
-# AMSF deprecated, leave them for compatibility
-_amsf/themes
-_amsf/core
