@@ -1,10 +1,9 @@
 ---
 layout: page
-title: CV
+title: Curriculum Vitae
 ---
 
 # Josh C. Simmons [SIMSIES]
-# Curriculum Vitae
 # Updated 6/30/2017
 *telephone redacted*
 
