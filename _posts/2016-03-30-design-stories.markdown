@@ -3,7 +3,6 @@ layout: post
 title:  "Meditations on First Music: Introduction"
 date:   2017-07-10 19:45:31 +0530
 categories: ["Meditations", "Introduction", "Multipart", "Conspirace"]
-author: "SIMSIES"
 ---
 
 # Meditations on First Music: Introduction
@@ -35,7 +34,7 @@ of all pop music.<br> **This is a wake up call to be conscious of the message
 that you are feeding your mind.**
 
 **What is this message? Whatever iHeartMedia Inc. wants to shove down your
-throats. **iHeartMedia is a huge national company (formerly ClearChannel) that
+throats.** iHeartMedia is a huge national company (formerly ClearChannel) that
 owns practically all of the major radio stations in the United States. They are
 so pervasive, that you could listen to the hip hop station in Los Angeles, then
 fly to Buttfuck, Iowa the next day and hear the identical mix of music on the
@@ -45,7 +44,7 @@ Before unfucking your musical tastes you’ll have to go full Descartes
 *Meditations on First Philosophy* and get rid of everything you do not know for
 certain about your musical tastes.
 
-<span class="figcaption_hack">[Skynet &
+<span class="figcaption_hack">[See: Skynet &
 Ebert](https://skynetandebert.com/2015/04/22/music-was-better-back-then-when-do-we-stop-keeping-up-with-popular-music/)</span>
 
 This is likely where many people will stop reading. Most people’s sense of
@@ -104,13 +103,3 @@ Taste](https://medium.com/@simsies/the-building-blocks-of-musical-taste-42c62e13
 ### Listening Exercises
 
 ### Music as Fuel
-
-* [Music](https://medium.com/tag/music?source=post)
-* [Conspiracy Theories](https://medium.com/tag/conspiracy-theories?source=post)
-* [Motivational](https://medium.com/tag/motivational?source=post)
-* [Spotify](https://medium.com/tag/spotify?source=post)
-* [Apple Music](https://medium.com/tag/apple-music?source=post)
-
-### [SIMSIES](https://medium.com/@simsies)
-
-Hot gossip from music’s ivory tower.
