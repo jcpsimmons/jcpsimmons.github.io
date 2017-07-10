@@ -10,7 +10,7 @@ title: SIMSIES
 email: jcpsimmons@gmail.com
 description: Artist
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://jcpsimmons.github.io" # the base hostname & protocol for your site
 twitter_username: simsiescreative
 github_username:  jcpsimmons
 paginate: 1
