@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Meditations on First Music: Introduction"
+title:  "The Building Blocks of Musical Taste"
 date:   2017-07-10 19:45:32 +0530
 categories: ["Meditations", "Introduction", "Multipart", "Conspiracy"]
 ---

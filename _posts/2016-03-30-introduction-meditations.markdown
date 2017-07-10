@@ -2,7 +2,7 @@
 layout: post
 title:  "Meditations on First Music: Introduction"
 date:   2017-07-10 19:45:31 +0530
-categories: ["Meditations", "Introduction", "Multipart", "Conspirace"]
+categories: ["Meditations", "Introduction", "Multipart", "Conspiracy"]
 ---
 
 # Meditations on First Music: Introduction
