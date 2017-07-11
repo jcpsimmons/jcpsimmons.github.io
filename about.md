@@ -4,8 +4,6 @@ title : About
 permalink: /about/
 ---
 
-<h2>SIMSIES</h2>
-<p>Artist/Scholar</p>
 <div class="manual-post">
   <div class="manual manual-title">
   <strong>About</strong>
