@@ -2,14 +2,14 @@
 layout: page
 title: Curriculum Vitae
 permalink: /curriculum-vitae/
-
-tagline: "CV"
 ---
 
-
-# <span style="font-variant:small-caps;">The Curriculum Vitae of **SIMSIES** </span>  
-
-
+<div class="manual-post">
+  <div class="manual manual-title">
+  <strong>The Curriculum Vitae of SIMSIES</strong>
+  </div>
+</div>
+---
 
 ## Education
 - **2015 - Present - Doctor of Philosophy in Music: University of California Irvine**

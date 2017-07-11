@@ -4,8 +4,12 @@ title : Services
 permalink: /services/
 ---
 
-# Services
-
+<div class="manual-post">
+  <div class="manual manual-title">
+  <strong>Services</strong>
+  </div>
+</div>
+---
 
 
 <i class="fa fa-1x fa-film text-primary sr-icons" data-sr-id="2" style="; visibility: visible;  -webkit-transform: scale(1)"></i>&nbsp;&nbsp;**Custom Video and Animation**  
