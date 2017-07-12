@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "ps test"
+date:   2017-07-12 19:45:32 +0530
+categories: ["Meditations", "Introduction", "Multipart", "Conspiracy"]
+---
+
+This is a link to someone elses working script, it throws no errors but I think I'm calling it incorrectly.
+
+<script src="https://jagracar.com/sketches/sourceCode/seaLife.js"></script>
+
+hello
