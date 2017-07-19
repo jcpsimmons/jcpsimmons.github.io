@@ -18,7 +18,7 @@ $text-color:       #0F1822;
 $background-color: #FDFDFD;
 $brand-color:      #EC2D2F;
 
-$grey-color:       #828282;
+$grey-color:       #0F1822;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -394,7 +394,7 @@ pre {
   padding-right: .4em;
 }
 .site-navigation {
-  color: #aaa;
+  color: #0F1822;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
