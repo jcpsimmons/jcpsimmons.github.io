@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-permalink: /curriculum-vitae/
+permalink: /cv/
 ---
 
 <div class="manual-post">
