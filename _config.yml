@@ -15,6 +15,6 @@ twitter_username: simsiescreative
 github_username:  jcpsimmons
 paginate: 5
 
-gems: [jekyll-paginate, kramdown]
+gems: [jekyll-paginate, kramdown, jekyll-seo-tag]
 # Build settings
 markdown: kramdown
