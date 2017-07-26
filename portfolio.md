@@ -21,7 +21,11 @@ permalink: /portfolio/
 
 ---
 
-<strong>Audio</strong>
+<div class="manual-post">
+  <div class="manual manual-title">
+  <strong>Audio</strong>
+  </div>
+</div>
 
 ---
 
