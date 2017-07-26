@@ -13,7 +13,7 @@ permalink: /portfolio/
 <iframe src="https://player.vimeo.com/video/187553790?color=FFFFFF" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
-<iframe src="https://player.vimeo.com/video/176871065?color=FFFFFF" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/176871065?color=FFFFFF" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <div class="manual-post">
   <div class="manual manual-title">
