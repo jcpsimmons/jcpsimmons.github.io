@@ -15,12 +15,13 @@ permalink: /portfolio/
 
 <iframe src="https://player.vimeo.com/video/176871065?color=FFFFFF" width="90%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+---
 <div class="manual-post">
   <div class="manual manual-title">
   <strong>Audio</strong>
   </div>
 </div>
-
+---
 <iframe src="https://open.spotify.com/embed/artist/4iEVjkNpBDALAP7btESYtQ" width="90%" height="500" frameborder="0" allowtransparency="true"></iframe>
 
 
