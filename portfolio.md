@@ -20,7 +20,6 @@ permalink: /portfolio/
 </div>
 
 ---
-
 <div class="manual-post">
   <div class="manual manual-title">
   <strong>Audio</strong>
