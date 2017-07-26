@@ -20,12 +20,11 @@ permalink: /portfolio/
 </div>
 
 ---
-<div class="manual-post">
-  <div class="manual manual-title">
-  <strong>Audio</strong>
-  </div>
-</div>
+
+<strong>Audio</strong>
+
 ---
+
 <br>
 <div style="text-align:center;">
 <iframe src="https://open.spotify.com/embed/artist/4iEVjkNpBDALAP7btESYtQ" width="90%" height="500" frameborder="0" allowtransparency="true"></iframe>
