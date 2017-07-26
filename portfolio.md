@@ -21,7 +21,7 @@ permalink: /portfolio/
   </div>
 </div>
 
-<iframe src="https://open.spotify.com/embed/artist/4iEVjkNpBDALAP7btESYtQ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<iframe src="https://open.spotify.com/embed/artist/4iEVjkNpBDALAP7btESYtQ" width="640" height="500" frameborder="0" allowtransparency="true"></iframe>
 
 
 </div>
