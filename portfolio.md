@@ -17,6 +17,8 @@ permalink: /portfolio/
 
 <iframe src="https://player.vimeo.com/video/176871065?color=FFFFFF" width="90%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br>
+</div>
+
 ---
 <div class="manual-post">
   <div class="manual manual-title">
@@ -25,7 +27,6 @@ permalink: /portfolio/
 </div>
 ---
 <br>
+<div style="text-align:center;">
 <iframe src="https://open.spotify.com/embed/artist/4iEVjkNpBDALAP7btESYtQ" width="90%" height="500" frameborder="0" allowtransparency="true"></iframe>
-
-
 </div>
