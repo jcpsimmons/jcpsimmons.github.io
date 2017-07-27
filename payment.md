@@ -9,9 +9,8 @@ permalink: /payment/
 <center><img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%"/></center>
 
 
-<center> <strong> ### via PayPal </strong> </center>
---- 
-<br>
+<center> <strong> via PayPal </strong> </center>
+---
 <center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
