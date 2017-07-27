@@ -6,12 +6,12 @@ permalink: /payment/
 
 <div class="manual-post">
   <div class="manual manual-title">
-  <strong>via Bitcoin (Preferred)</strong>
+  <strong><i class="fa fa-btc" aria-hidden="true"></i> (preferred)</strong>
   </div>
 </div>
 ---
 
-<center> <a href="/index.html"><div class="site-title">  <img src="http://simsi.es/img/simmonsBitcoin.png" width = "100%" alt="" /> </div></a></center>
+<center> <a href="/index.html"><div class="site-title">  <img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%" alt="" /> </div></a></center>
 
 <div class="manual-post">
   <div class="manual manual-title">
