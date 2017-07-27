@@ -4,14 +4,12 @@ title: Payment Info
 permalink: /payment/
 ---
 
-<div class="manual manual-title">
-  <strong>via <i class="fa fa-btc" aria-hidden="true"></i> (preferred)</strong>
-</div>
+<center> ### via <i class="fa fa-btc" aria-hidden="true"></i> (preferred) </center>
 ---
-<center><img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%"/> </div></a></center>
+<center><img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%"/></center>
 
 
-<strong>via PayPal</strong>
+<center> ### via PayPal </center>
 
 <br>
 <center>
