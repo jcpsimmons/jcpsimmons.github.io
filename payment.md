@@ -6,18 +6,19 @@ permalink: /payment/
 
 <div class="manual-post">
   <div class="manual manual-title">
-  <strong>Payment Info</strong>
+  <strong>via Bitcoin (Preferred)</strong>
   </div>
 </div>
 ---
 
-## I prefer to receive payment for services rendered through Bitcoin  
+<center> <a href="/index.html"><div class="site-title">  <img src="http://simsi.es/img/simmonsBitcoin.png" width = "100%" alt="" /> </div></a></center>
 
-<center> <a href="/index.html"><div class="site-title">  <img src="http://simsi.es/img/logobw.png" width = "25%" alt="" /> </div></a></center>
-
----  
-
-## Alternatively, credit cards can be used through PayPal  
+<div class="manual-post">
+  <div class="manual manual-title">
+  <strong>via PayPal</strong>
+  </div>
+</div>
+---
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
