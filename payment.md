@@ -4,10 +4,8 @@ title: Payment Info
 permalink: /payment/
 ---
 
-<div class="manual-post">
-  <div class="manual manual-title">
+<div class="manual manual-title">
   <strong>via <i class="fa fa-btc" aria-hidden="true"></i> (preferred)</strong>
-  </div>
 </div>
 ---
 <center> <a href="/index.html"><div class="site-title">  <img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%" alt="" /> </div></a></center>
