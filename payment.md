@@ -8,14 +8,11 @@ permalink: /payment/
   <strong>via <i class="fa fa-btc" aria-hidden="true"></i> (preferred)</strong>
 </div>
 ---
-<center> <a href="/index.html"><div class="site-title">  <img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%" alt="" /> </div></a></center>
+<center><img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%"/> </div></a></center>
 
-<div class="manual-post">
-  <div class="manual manual-title">
-  <strong>via PayPal</strong>
-  </div>
-</div>
----
+
+<strong>via PayPal</strong>
+
 <br>
 <center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
