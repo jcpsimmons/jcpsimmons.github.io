@@ -4,13 +4,13 @@ title: Payment Info
 permalink: /payment/
 ---
 
-<center> ### via <i class="fa fa-btc" aria-hidden="true"></i> (preferred) </center>
+<center>  <strong> via <i class="fa fa-btc" aria-hidden="true"></i> (preferred) </strong> </center>
 ---
 <center><img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%"/></center>
 
 
-<center> ### via PayPal </center>
-
+<center> <strong> ### via PayPal </strong> </center>
+--- 
 <br>
 <center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
