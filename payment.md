@@ -6,11 +6,10 @@ permalink: /payment/
 
 <div class="manual-post">
   <div class="manual manual-title">
-  <strong><i class="fa fa-btc" aria-hidden="true"></i> (preferred)</strong>
+  <strong>via <i class="fa fa-btc" aria-hidden="true"></i> (preferred)</strong>
   </div>
 </div>
 ---
-
 <center> <a href="/index.html"><div class="site-title">  <img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%" alt="" /> </div></a></center>
 
 <div class="manual-post">
@@ -19,6 +18,7 @@ permalink: /payment/
   </div>
 </div>
 ---
+<br>
 <center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
