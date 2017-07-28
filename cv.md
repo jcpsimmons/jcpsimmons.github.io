@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: CV
 permalink: /cv/
 ---
 
@@ -95,7 +95,7 @@ permalink: /cv/
   State University
   	- Supervisors: Burton Beerman, Christopher Dietz, Michael Kuehn, Elainie Lillios (composition), and Nina Assimakopoulos (flute).
 
-## Complete List of Performances/Galleries  
+## Complete List of Performances/Galleries
 
 ###### *long piece titles truncated with ellipsis*
 
@@ -665,16 +665,16 @@ bitPushIntersection
 	- Columbus, OH
 
 
-## Grants  
+## Grants
 
 
-#### 2017  
-- UCI Material and Travel Grant (for VR equipment)  
+#### 2017
+- UCI Material and Travel Grant (for VR equipment)
 
 
-#### 2016  
+#### 2016
 - Medici Artist Grant Summer 2016 (for artistic project)
-- Associated Graduate Students of UCI Travel Grant (for GLAS Animation Festival)  
+- Associated Graduate Students of UCI Travel Grant (for GLAS Animation Festival)
 
 
 #### 2015

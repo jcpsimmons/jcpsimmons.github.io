@@ -7,11 +7,9 @@ permalink: /payment/
 <center>  <strong> via <i class="fa fa-btc" aria-hidden="true"></i> (preferred) </strong> </center>
 ---
 <center><img src="http://simsi.es/img/simmonsBitcoin.png" width = "25%"/><br>
-<i>1BBURtQHccjRu157reGab8RbE1eFdD1Jo8</i>
+<strong><i>1BBURtQHccjRu157reGab8RbE1eFdD1Jo8</i></strong>
 </center>
 <br>
-<br>
-
 <center> <strong> via PayPal </strong> </center>
 ---
 <center>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Building Blocks of Musical Taste"
-date:   2017-07-10 19:45:32 +0530
+date:   2017-06-26 19:45:32 +0530
 categories: ["Meditations", "Introduction", "Multipart", "Conspiracy"]
 ---
 

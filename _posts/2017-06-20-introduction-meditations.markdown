@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meditations on First Music: Introduction"
-date:   2017-07-10 19:45:31 +0530
+date:   2017-06-20 19:45:31 +0530
 categories: ["Meditations", "Introduction", "Multipart", "Conspiracy"]
 ---
 
