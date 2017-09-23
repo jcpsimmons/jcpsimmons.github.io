@@ -31,6 +31,17 @@ permalink: /cv/
 - 2016-2017 - *Fellowship (UCI)*
 - 2013-2015 - GA (Bowling Green State University) - *Kobacker Theater, Facilities Management*
 
+## Positions Outside of Academia
+- 2016 - Antmedia - *Motion Graphics Specialist*
+	- Created bespoke motion graphics for contract jobs
+	- Used After Effects, Photoshop, Illustrator, and Cinema 4D
+- 2016 - Uber - *Driver*
+	- Maintained 5 star rating on over 100 trips
+	- Developed interpersonal skills by providing excellent customer service
+- 2015 - Pacific Conservatory - *Flute Instructor*
+	- Taught weekly flute lessons to students ages 10 - 18
+	- Experience in dealing with different learning styles
+
 ## Online Presence
 - Portfolio - http://simsies.com/
 - Audio Work - https://soundcloud.com/simsies
