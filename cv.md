@@ -75,6 +75,18 @@ permalink: /cv/
 	-	commissioned by Cole Burger, May 2014
 
 ## Commercial Recordings/DVDs
+- 808
+	- on Spotify, Apple Music, Google Play, and Tidal
+- Hazy 5pm Sunlight Upon Waking from Afternoon Nap in Midwestern Winter
+	- on Spotify, Apple Music, Google Play, and Tidal
+- Ratchet
+	- on Spotify, Apple Music, Google Play, and Tidal
+- Wintermute
+	- on Spotify, Apple Music, Google Play, and Tidal
+- Run.
+	- on Spotify, Apple Music, Google Play, and Tidal
+- See You Next Tuesday
+	- on Spotify, Apple Music, Google Play, and Tidal
 - In Memoriam: Frankie Knuckles
 	- on Seamus Electroacoustic Miniatures 2014: Transients
 - bitPushIntersection
