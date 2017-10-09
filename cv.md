@@ -12,7 +12,7 @@ permalink: /cv/
 ---
 
 ## Currently:
-- PhD Student at University of California Irvine
+- PhD Student (coursework finished) at University of California Irvine
 - Research Interests: virtual reality, transmedia, hip hop, cyberpunk art, audio feature extraction
 
 
