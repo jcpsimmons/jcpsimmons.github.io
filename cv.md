@@ -49,8 +49,6 @@ permalink: /cv/
 - Coding - https://github.com/jcpsimmons
 
 ## Commissions
-- Untitled
-	- 3D animation to accompany saxophonist tour
 - Katabasis Trilogy
 	- 3D animation and digital video to accompany improvisations by saxophonist Julia Kuhlman
 	- commissioned by Julia Kuhlman, June 2016
@@ -94,7 +92,7 @@ permalink: /cv/
 
 ## Education
   - **2015 - Present - Doctor of Philosophy in Music: University of California Irvine**
-  	-	Degree in Integrated Composition Improvisation and Technology (in progress)
+  	- Degree in Integrated Composition Improvisation and Technology (in progress)
   	- Dissertation: Virtual Reality as New Concert Hall
   	- Principal Advisor: Kojiro Umezaki
   	- Committee: Christopher Dobrian, Nicole Mitchell, Vincent Olivieri, Lukas Ligeti
@@ -102,7 +100,7 @@ permalink: /cv/
   	- 3.9 G.P.A.
   	- Concentration in Digital Multimedia Arts
   	- Supervisor: Elainie Lillios (composition).
-  -	2008 - 2013 - Bachelor of Music in Music Composition: Bowling Green
+  - 2008 - 2013 - Bachelor of Music in Music Composition: Bowling Green
   State University
   	- Supervisors: Burton Beerman, Christopher Dietz, Michael Kuehn, Elainie Lillios (composition), and Nina Assimakopoulos (flute).
 
@@ -111,6 +109,26 @@ permalink: /cv/
 ###### *long piece titles truncated with ellipsis*
 
 #### 2017
+- Cardboard Snare
+	- Bespoke III: SIMSIES, Davenport and Lough
+	- The Trailer, Irvine, CA
+	- October 7, 2017
+- caged
+	- Audio for John Cage's *Reunion*
+	- Beall Center Gallery, Irvine, CA
+	- October 6, 2017 - December, 2017
+- Cardboard Snare
+	- KCRW Presents: Summer Nights Out
+	- Muzeo, Anaheim, CA
+	- September 23, 2017
+- Untitled Improvisation
+	- Bespoke II
+	- The Trailer, Irvine, CA
+	- September 7, 2017
+- Untitled Improvisation
+	- Bespoke I
+	- CLASSic Studio, Irvine, CA
+	- August 14, 2017
 - \#digitaldust
 	- Web Showcase
 	- Location Independent
@@ -449,6 +467,8 @@ bitPushIntersection
 
 
 #### 2017
+- caged - fixed media for performance of John Cage's *Reunion*
+- Cardboard Snare - live performance environment
 - \#digitaldust - online installation work
 - Fall/Winter/Spring/Summer - fixed media for choreography by Dante Pueleio
 - King Inner - 4 male performers
@@ -553,6 +573,8 @@ bitPushIntersection
 
 
 ## Presentations Given
+- Live Electronic Music Performance
+	- Irvine, CA July 27, 2017
 - Synthesizers 101
 	- 400 student lecture
 	- Irvine, CA May 20, 2017
