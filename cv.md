@@ -104,10 +104,10 @@ permalink: /cv/
 
 ## Education
 - **2015 - Present - Doctor of Philosophy in Music: University of California Irvine** &nbsp; 
-  	- Degree in Integrated Composition Improvisation and Technology (in progress)
-  	- Dissertation: Virtual Reality as New Concert Hall
- 	- Principal Advisor: Kojiro Umezaki
-  	- Committee: Christopher Dobrian, Nicole Mitchell, Vincent Olivieri, Lukas Ligeti
+  	- Degree in Integrated Composition Improvisation and Technology (in progress) &nbsp;
+  	- Dissertation: Virtual Reality as New Concert Hall &nbsp;
+ 	- Principal Advisor: Kojiro Umezaki &nbsp;
+  	- Committee: Christopher Dobrian, Nicole Mitchell, Vincent Olivieri, Lukas Ligeti &nbsp;
 - 2013 - 2015 - Master’s of Music in Music Composition: Bowling Green State University
 	- 3.9 G.P.A.
   	- Concentration in Digital Multimedia Arts
