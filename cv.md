@@ -103,17 +103,16 @@ permalink: /cv/
 	- 2014 Australasian Computer Music Conference, Melbourne, Australia July 9, 2014
 
 ## Education
-  - **2015 - Present - Doctor of Philosophy in Music: University of California Irvine**
+- **2015 - Present - Doctor of Philosophy in Music: University of California Irvine**
   	- Degree in Integrated Composition Improvisation and Technology (in progress)
   	- Dissertation: Virtual Reality as New Concert Hall
-  	- Principal Advisor: Kojiro Umezaki
+ 	- Principal Advisor: Kojiro Umezaki
   	- Committee: Christopher Dobrian, Nicole Mitchell, Vincent Olivieri, Lukas Ligeti
-  - 2013 - 2015 - Master’s of Music in Music Composition: Bowling Green State University
-  	- 3.9 G.P.A.
+- 2013 - 2015 - Master’s of Music in Music Composition: Bowling Green State University
+	- 3.9 G.P.A.
   	- Concentration in Digital Multimedia Arts
   	- Supervisor: Elainie Lillios (composition).
-  - 2008 - 2013 - Bachelor of Music in Music Composition: Bowling Green
-  State University
+- 2008 - 2013 - Bachelor of Music in Music Composition: Bowling Green State University
   	- Supervisors: Burton Beerman, Christopher Dietz, Michael Kuehn, Elainie Lillios (composition), and Nina Assimakopoulos (flute).
 
 ## Complete List of Performances/Galleries
