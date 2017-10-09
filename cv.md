@@ -103,7 +103,7 @@ permalink: /cv/
 	- 2014 Australasian Computer Music Conference, Melbourne, Australia July 9, 2014
 
 ## Education
-- **2015 - Present - Doctor of Philosophy in Music: University of California Irvine**
+- **2015 - Present - Doctor of Philosophy in Music: University of California Irvine**  
   	- Degree in Integrated Composition Improvisation and Technology (in progress)
   	- Dissertation: Virtual Reality as New Concert Hall
  	- Principal Advisor: Kojiro Umezaki
