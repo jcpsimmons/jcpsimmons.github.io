@@ -73,6 +73,13 @@ permalink: /cv/
 - Vingt regards sur l’enfant-Jésus (by Oliver Messiaen)
 	- 3D animation for multimedia tour of the eponymous work
 	-	commissioned by Cole Burger, May 2014
+	
+## Game Titles
+- [Spektra VR](http://headbangvr.com) (forthcoming)
+	- Game designer/project lead
+- [Convolution](https://github.com/jcpsimmons/convolution-paper-release/releases)
+	- Sound Designer
+	- VFX Artist
 
 ## Commercial Recordings/DVDs
 - 808
