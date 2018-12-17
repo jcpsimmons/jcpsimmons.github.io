@@ -22,6 +22,10 @@ pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; col
     color: #C9604C;
 }
 
+.noLineHeight {
+    line-height: 0px;
+}
+
 .link {
   color: #21B7A6;
   text-decoration: underline;
