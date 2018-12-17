@@ -11,8 +11,8 @@
 
     <title>Josh C. Simmons | Simsies | Artist</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="Index_files/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="Index_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -23,8 +23,9 @@
     <!-- Animations CSS -->
     <link href="Index_files/animate.css" rel="stylesheet">
 
-    <!-- Noise animations CSS -->
+    <!-- Noise animations js -->
     <script src="Index_files/grained.min.js"></script>
+
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -36,35 +37,45 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <body id="noiseContainer">
+      <div class="jumbotron jumbotron-fluid" style="background-color:#E3D9D2;">
+        <div class="container">
+          <style>
+            h3 {
+              text-align: center;
+            }
+            p {
+              text-align: center;
+            }
+          </style>
+          <h1 class="display-4 animated pulse" style="text-align:center">Welcome.</h1>
+          <center><img src="img/platoloop.gif" align="middle" width=100><center>
+          <h3 class="animated fadeIn slow delay-1s orangeText">This is the website of technologist Josh Simmons.</h3>
 
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="Absolute-Center is-Responsive">
-            <div id="logo-container">
-              <img src="img/platoloop.gif">
-            </div>
-            <style>
-              h3 {text-align: left;}
-              p {text-align: left; color: #dfcfc3;}
-            </style>
-              <h3 class="animated pulse"><b>Welcome.</b></h3>
-              <h3 class="animated fadeIn slow delay-1s"> This is the website of technologist <span class="orangeText">Josh Simmons</span>.</h3>
-              <h3 class="animated fadeIn slow delay-3s">Josh does not currently maintain any <a class="link" href="anti-social-media.html">social media accounts</a>. You can view his <a class="link" href="http:be.net/simsies">portfolio</a>, read his <a class="link" href="artist-statement.html">artist statement</a>, and peruse his <a class="link" href="curriculum-vitae.html">C.V.</a> here. His <a class="link" href="https://simsies.podomatic.com/rss2.xml">podcast</a> is available on all major platforms. Contact him by email at <a class="link" href="mailto:jcpsimmons@gmail.com">JCPSimmons@gmail.com</a>
-            </h3>
-            <p class="animated fadeIn slow delay-5s">
-              © 2019 Josh C. Simmons
-            </p>
-          </div>
-        </div><!-- /.container -->
+          <h3 class="animated fadeIn slow delay-2s">Josh does not currently maintain any <a class="link" href="anti-social-media.html">social media accounts</a>.</h3>
+
+          <h3 class="animated fadeIn slow delay-3s">You can view his <a class="link" href="http:be.net/simsies">portfolio</a>, read his <a class="link" href="artist-statement.html">artist statement</a>, and peruse his <a class="link" href="curriculum-vitae.html">C.V.</a> here.</h3>
+
+          <h3 class="animated fadeIn slow delay-4s">His <a class="link" href="https://simsies.podomatic.com/rss2.xml">podcast</a> is available on all major platforms.</h3>
+
+          <h3 class="animated fadeIn slow delay-5s">Contact him by email at <a class="link" href="mailto:jcpsimmons@gmail.com">JCPSimmons@gmail.com</a></h3>
+
+          <p class="animated fadeIn slow delay-5s offBGColor">Copyright © 2019 Josh C. Simmmons<p>
+        </div>
       </div>
+
+
+
+
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <!-- employ noise animations js -->
+    <script src="Index_files/custom.js"></script>
     <script src="Index_files/jquery.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="Index_files/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="Index_files/ie10-viewport-bug-workaround.js"></script>
 

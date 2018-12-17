@@ -10,6 +10,10 @@ body {
   background-color: #E3D9D2;
 }
 
+body,html {
+  height: 100%;
+}
+
 /* adds futura typeface to everything */
 h1 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 24px; color: #726965; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
 h3 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 20px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 25px;}
@@ -17,6 +21,14 @@ h4 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; colo
 p { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
 blockquote { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; border-left: none;}
 pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+
+.correctBGColor {
+    color: #E3D9D2;
+}
+
+.offBGColor {
+  color: #e2cab9; 
+}
 
 .orangeText {
     color: #C9604C;
