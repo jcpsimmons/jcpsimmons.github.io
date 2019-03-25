@@ -98,9 +98,9 @@ pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; col
   }
 }
 
-@media screen and (min-width: 576px) {
-  #secondary-card-row {
-    padding-top:0px;
+@media screen and (max-width: 600px) {
+  #unspace-me {
+    margin-top:-50px;
   }
 }
 
