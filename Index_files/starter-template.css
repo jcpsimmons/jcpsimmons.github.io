@@ -19,6 +19,7 @@ h1 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 24px; colo
 h3 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 20px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 25px;}
 h4 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #C9604C; font-style: normal; font-variant: normal; font-weight: 600; line-height: 20px; text-transform:uppercase;}
 h5 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #C9604C; font-style: normal; font-variant: normal; font-weight: 600; line-height: 20px; text-transform:uppercase;}
+h6 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #726965; font-style: normal; font-variant: normal; font-weight: 600; line-height: 20px; text-transform:uppercase; text-decoration: underline;}
 p { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
 blockquote { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; border-left: none;}
 pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
@@ -112,4 +113,14 @@ pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; col
 
 .github-button {
   background-color: #6e5494;
+}
+
+.github-button:hover {
+  background-color: #9372c4;
+}
+
+.badge-pill {
+  background-color: #E3D9D2;
+  color: #726965;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, .2);
 }
