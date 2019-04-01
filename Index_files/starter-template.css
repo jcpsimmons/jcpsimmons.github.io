@@ -115,6 +115,10 @@ pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; col
   background-color: #6e5494;
 }
 
+.disabled-button {
+  background-color: #baada4;
+}
+
 .github-button:hover {
   background-color: #9372c4;
 }
