@@ -128,3 +128,8 @@ pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; col
   color: #726965;
   box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, .2);
 }
+
+.filler-text {
+  background-color: #726965;
+  line-height: 17pt;
+}
