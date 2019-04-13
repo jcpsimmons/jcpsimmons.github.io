@@ -7,25 +7,95 @@ body {
 }
 
 body {
-  background-color: #E3D9D2;
+  background-color: #e3d9d2;
 }
 
-body,html {
+body,
+html {
   height: 100%;
 }
 
 /* adds futura typeface to everything */
-h1 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 24px; color: #726965; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
-h3 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 20px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 25px;}
-h4 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #C9604C; font-style: normal; font-variant: normal; font-weight: 600; line-height: 20px; text-transform:uppercase;}
-h5 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #C9604C; font-style: normal; font-variant: normal; font-weight: 600; line-height: 20px; text-transform:uppercase;}
-h6 { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #726965; font-style: normal; font-variant: normal; font-weight: 600; line-height: 20px; text-transform:uppercase; text-decoration: underline;}
-p { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
-blockquote { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 15px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; border-left: none;}
-pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; color: #726965; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+h1 {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 24px;
+  color: #726965;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+h3 {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 20px;
+  color: #726965;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+h4 {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 15px;
+  color: #c9604c;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+h5 {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 15px;
+  color: #c9604c;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+h6 {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 15px;
+  color: #726965;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+p {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 15px;
+  color: #726965;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 15px;
+  color: #726965;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  border-left: none;
+}
+pre {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 13px;
+  color: #726965;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5667px;
+}
 
 .correctBGColor {
-    color: #E3D9D2;
+  color: #e3d9d2;
 }
 
 .offBGColor {
@@ -33,46 +103,51 @@ pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; col
 }
 
 .orangeText {
-    color: #C9604C;
+  color: #c9604c;
 }
 
 .noLineHeight {
-    line-height: 0px;
+  line-height: 0px;
 }
 
 .link {
-  color: #21B7A6;
+  color: #21b7a6;
   text-decoration: underline;
 }
 
 .link:hover {
-  color: #daf4f1
+  color: #daf4f1;
 }
 
 .lightText {
-  color:#948b87;
+  color: #948b87;
 }
 
 /*highlight test: #C9604C, link color: #21B7A6, text color: #726965, bg color, #E3D9D2*/
 
 .super-center {
-        width: 500px;
-        height: 600px;
-        position:absolute; /*it can be fixed too*/
-        left:0; right:0;
-        top:0; bottom:0;
-        margin:auto;
+  width: 500px;
+  height: 600px;
+  position: absolute; /*it can be fixed too*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 
-        /*this to solve "the content will not be cut when the window is smaller than the content": */
-        max-width:100%;
-        max-height:100%;
-        overflow:auto;
-    }
+  /*this to solve "the content will not be cut when the window is smaller than the content": */
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
 
 .Absolute-Center {
   margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .Absolute-Center.is-Responsive {
@@ -83,11 +158,11 @@ pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; col
   padding: 40px;
 }
 
-#logo-container{
+#logo-container {
   margin: auto;
   margin-bottom: 10px;
-  width:200px;
-  height:30px;
+  width: 200px;
+  height: 30px;
 }
 
 .card-columns {
@@ -101,13 +176,13 @@ pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; col
 
 @media screen and (max-width: 600px) {
   #unspace-me {
-    margin-top:-50px;
+    margin-top: -50px;
   }
 }
 
 .card {
-  background-color: #E3D9D2;
-  box-shadow: 5px 7px 10px 5px rgba(0, 0, 0, .1);
+  background-color: #e3d9d2;
+  box-shadow: 5px 7px 10px 5px rgba(0, 0, 0, 0.1);
   border: 0;
 }
 
@@ -124,9 +199,9 @@ pre { font-family: Futura, Trebuchet MS, Arial, sans-serif; font-size: 13px; col
 }
 
 .badge-pill {
-  background-color: #E3D9D2;
+  background-color: #e3d9d2;
   color: #726965;
-  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, .2);
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
 .filler-text {
