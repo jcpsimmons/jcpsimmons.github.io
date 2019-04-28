@@ -32,7 +32,7 @@ class LandingPage extends Component {
 
             <h3 className="animated fadeIn slow delay-2s">
               You can view Josh's{" "}
-              <a className="link" href="portfolio.html">
+              <a className="link" href="/portfolio">
                 portfolio
               </a>{" "}
               and peruse his{" "}
