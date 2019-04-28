@@ -1,17 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+// import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 
-import LandingPage from "./components/landing-page/LandingPage";
+import Routes from "./routes";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <LandingPage />
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
