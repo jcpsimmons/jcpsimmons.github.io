@@ -1,6 +1,6 @@
 # The React-port of my personal portfolio website
 
-![react-logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/200px-React-icon.svg.png)
+![react-logo](https://media.giphy.com/media/nlOqrlN3S5zMY/giphy.gif)
 
 ## How do I see a live version?
 
