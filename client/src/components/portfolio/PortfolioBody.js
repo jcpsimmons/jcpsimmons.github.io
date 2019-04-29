@@ -120,26 +120,6 @@ const portfolioItems = [
     ],
     liveLink: "",
     gitHubLink: ""
-  },
-  {
-    title: "Dream Machine",
-    image: "img/project-photos/abstruse.png",
-    info:
-      "Website to document large-scale multimedia work for virtual reality and interactive electronics. The documentation website and VR beta application are linked below. I designed the VR application and the documentation website.",
-    techTags: [
-      "Unity",
-      "C#",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "jQuery",
-      "MaxMSP",
-      "Ableton Live",
-      "MIDI",
-      "OSC"
-    ],
-    liveLink: "",
-    gitHubLink: ""
   }
 ];
 

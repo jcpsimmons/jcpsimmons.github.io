@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link, BrowserRouter } from "react-router-dom";
+import Portfolio from "../portfolio/Portfolio";
+import CurriculumVitae from "../curriculum-vitae/CurriculumVitae";
 
 class LandingPage extends Component {
   render() {
@@ -36,9 +38,13 @@ class LandingPage extends Component {
                 portfolio
               </a>{" "}
               and peruse his{" "}
-              <Link className="link" to="/curriculum-vitae">
+              <a
+                className="link"
+                href="/curriculum-vitae"
+                component={CurriculumVitae}
+              >
                 C.V.
-              </Link>{" "}
+              </a>{" "}
               here.
             </h3>
 
@@ -47,13 +53,6 @@ class LandingPage extends Component {
                 JCPSimmons@gmail.com
               </a>
             </h3>
-
-            <p
-              className="animated fadeIn slow delay-5s offBGColor"
-              style={{ color: "#e2cdbf" }}
-            >
-              Copyright © 2019 Josh C. Simmmons
-            </p>
           </div>
         </div>
       </BrowserRouter>

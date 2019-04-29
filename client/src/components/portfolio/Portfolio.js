@@ -10,7 +10,7 @@ export default class Portfolio extends Component {
             <div class="col-md-4">
               <p class="animated bounceInLeft">
                 <b>
-                  <a class="link" href="index.html">
+                  <a class="link" href="/">
                     HOME
                   </a>{" "}
                   /<span class="orangeText">PORTFOLIO</span>

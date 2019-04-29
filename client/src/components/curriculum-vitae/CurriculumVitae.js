@@ -9,9 +9,9 @@ export default function CurriculumVitae() {
           <div className="col-md-4">
             <p className="animated bounceInLeft">
               <b>
-                <Link className="link" to="/">
+                <a className="link" href="/">
                   HOME
-                </Link>{" "}
+                </a>{" "}
                 / <span className="orangeText">CURRICULUM VITAE</span>
               </b>
             </p>
