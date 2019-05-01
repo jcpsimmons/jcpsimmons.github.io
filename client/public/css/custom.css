@@ -145,7 +145,7 @@ pre {
   transition: all 1s ease-in-out;
 }
 .grow:hover {
-  transform: scale(1.025);
+  transform: scale(1.01);
 }
 
 .Absolute-Center {

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter } from "react-router-dom";
-import CurriculumVitae from "../curriculum-vitae/CurriculumVitae";
 
 class LandingPage extends Component {
   render() {
@@ -37,16 +36,28 @@ class LandingPage extends Component {
                 portfolio
               </a>{" "}
               and peruse his{" "}
-              <a
-                className="link"
-                href="/curriculum-vitae"
-                component={CurriculumVitae}
-              >
+              <a className="link" href="/curriculum-vitae">
                 C.V.
               </a>{" "}
               here.
             </h3>
-
+            <h3 className="animated fadeIn slow delay-3s">
+              Learn about this site's{" "}
+              <a
+                className="link"
+                href="https://www.behance.net/gallery/77864745/Artist-Portfolio-Site-Design"
+              >
+                design
+              </a>{" "}
+              or{" "}
+              <a
+                className="link"
+                href="https://github.com/jcpsimmons/jcpsimmons.github.io"
+              >
+                code
+              </a>{" "}
+              here.
+            </h3>
             <h3 className="animated fadeIn slow delay-3s">
               <a className="link" href="mailto:jcpsimmons@gmail.com">
                 JCPSimmons@gmail.com

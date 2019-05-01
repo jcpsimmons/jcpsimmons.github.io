@@ -18,8 +18,8 @@ const portfolioItems = [
       "MIDI",
       "OSC"
     ],
-    liveLink: "",
-    gitHubLink: ""
+    liveLink: "http://jcsdesign.me/abstruse-landing-page/",
+    gitHubLink: "https://github.com/jcpsimmons/spektra-public-prerelease"
   },
   {
     title: "Greatreads Web App",
@@ -38,8 +38,8 @@ const portfolioItems = [
       "MIDI",
       "OSC"
     ],
-    liveLink: "",
-    gitHubLink: ""
+    liveLink: "https://pacific-stream-12395.herokuapp.com/",
+    gitHubLink: "https://github.com/jcpsimmons/greatreads"
   },
   {
     title: "Simple Texting UX Research",
@@ -58,8 +58,8 @@ const portfolioItems = [
       "MIDI",
       "OSC"
     ],
-    liveLink: "",
-    gitHubLink: ""
+    liveLink:
+      "https://www.behance.net/gallery/79355581/SimpleTexting-UX-Research-and-UI-Design"
   },
 
   {
@@ -76,8 +76,8 @@ const portfolioItems = [
       "Illustrator",
       "Indesign"
     ],
-    liveLink: "",
-    gitHubLink: ""
+    liveLink: "http://jcsdesign.me/dreammachine/",
+    gitHubLink: "https://github.com/jcpsimmons/dreammachine"
   },
   {
     title: "TWEEDLE FARMS UI/UX",
@@ -92,8 +92,8 @@ const portfolioItems = [
       "Illustrator Live",
       "Indesign"
     ],
-    liveLink: "",
-    gitHubLink: ""
+    liveLink:
+      "https://www.behance.net/gallery/72813661/Tweedle-Farms-Site-Concept"
   },
   {
     title: "RANDOM GRADIENT GENERATOR",
@@ -101,53 +101,64 @@ const portfolioItems = [
     info:
       "A small React utility I built for quickly generating random gradients. I plan on using bits of its code in future React projects.",
     techTags: ["HTML", "CSS", "JavaScript", "React"],
-    liveLink: "",
-    gitHubLink: ""
+    liveLink: "https://jcpsimmons.github.io/click-gradient-generator/",
+    gitHubLink: "http://github.com/jcpsimmons/click-gradient-generator"
   }
 ];
 
 class PortfolioBody extends Component {
   render() {
     return (
-      <div className="container">
-        {console.log(portfolioItems)}
+      <div className="container animated bounceInRight delay-1s">
         <div className="card-columns">
           {portfolioItems.map((item, index) => (
-            <div className="card card-coloring mb-4 grow" id={index}>
+            <div className="card card-coloring mb-4 grow" key={`card-${index}`}>
               <a href={item.liveLink}>
                 <img
-                  class="card-img-top img-fluid"
+                  className="card-img-top img-fluid"
                   src={item.image}
                   alt={item.title}
                 />
               </a>
-              <div class="card-body">
-                <h4 class="card-title">{item.title}</h4>
-                <p class="card-text">{item.info}</p>
+              <div className="card-body">
+                <h4 className="card-title">{item.title}</h4>
+                <p className="card-text">{item.info}</p>
                 {item.techTags.map(tag => {
                   return (
-                    <span className="badge badge-pill badge-primary mx-1">
+                    <span
+                      key={`pill-${tag}-${index}`}
+                      className="badge badge-pill badge-primary mx-1"
+                    >
                       {tag}
                     </span>
                   );
                 })}
               </div>
-              <div class="card-footer">
-                <a
-                  href="https://jcpsimmons.github.io/abstruse-landing-page/"
-                  class="btn btn-primary btn-sm btn-block"
-                  role="button"
-                >
-                  View Live
-                </a>
-                <a
-                  href="https://github.com/jcpsimmons/spektra-public-prerelease"
-                  class="btn btn-secondary btn-sm btn-block github-button"
-                  role="button"
-                >
-                  <i class="fab fa-github" />
-                  &nbsp;&nbsp;View on GitHub
-                </a>
+              <div className="card-footer">
+                {item.liveLink ? (
+                  <a
+                    href={item.liveLink}
+                    className="btn btn-primary btn-sm btn-block"
+                    role="button"
+                  >
+                    View Live
+                  </a>
+                ) : (
+                  <div />
+                )}
+
+                {item.gitHubLink ? (
+                  <a
+                    href={item.gitHubLink}
+                    className="btn btn-secondary btn-sm btn-block github-button"
+                    role="button"
+                  >
+                    <i className="fab fa-github" />
+                    &nbsp;&nbsp;View on GitHub
+                  </a>
+                ) : (
+                  <div />
+                )}
               </div>
             </div>
           ))}
