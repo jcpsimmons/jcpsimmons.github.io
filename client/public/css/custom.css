@@ -141,6 +141,13 @@ pre {
   overflow: auto;
 }
 
+.grow {
+  transition: all 1s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.025);
+}
+
 .Absolute-Center {
   margin: auto;
   position: absolute;
@@ -180,10 +187,10 @@ pre {
   }
 }
 
-.card {
+.card-coloring {
   background-color: #e3d9d2;
-  box-shadow: 5px 7px 10px 5px rgba(0, 0, 0, 0.1);
-  border: 0;
+  /* box-shadow: 5px 7px 10px 5px rgba(0, 0, 0, 0.1); */
+  border: 10;
 }
 
 .github-button {
