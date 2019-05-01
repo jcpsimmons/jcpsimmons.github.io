@@ -29,5 +29,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://myname.github.io/myapp"
+  "homepage": "http://myname.github.io/myapp",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
