@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 **.orig
 client/node_modules
+.vscode

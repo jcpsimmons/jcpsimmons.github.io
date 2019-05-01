@@ -1,16 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter, Link, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import LandingPage from "./components/landing-page/LandingPage";
 import Portfolio from "./components/portfolio/Portfolio";
 import CurriculumVitae from "./components/curriculum-vitae/CurriculumVitae";
 import Footer from "./components/footer/Footer";
 
 ReactDOM.render(
-  <div>
+  <div className="">
     <BrowserRouter>
       <Route path="/curriculum-vitae" exact component={CurriculumVitae} />
       <Route path="/portfolio" exact component={Portfolio} />

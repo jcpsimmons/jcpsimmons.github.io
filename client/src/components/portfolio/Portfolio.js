@@ -4,27 +4,27 @@ import PortfolioBody from "./PortfolioBody";
 export default class Portfolio extends Component {
   render() {
     return (
-      <div class="container-fluid">
-        <div class="starter-template">
-          <div class="row">
-            <div class="col-md-4">
-              <p class="animated bounceInLeft">
+      <div className="container-fluid">
+        <div className="starter-template">
+          <div className="row">
+            <div className="col-md-4">
+              <p className="animated bounceInLeft">
                 <b>
-                  <a class="link" href="/">
+                  <a className="link" href="/">
                     HOME
                   </a>{" "}
-                  /<span class="orangeText">PORTFOLIO</span>
+                  /<span className="orangeText">PORTFOLIO</span>
                 </b>
                 <br />
                 <b>
                   Hello! I'm currently for hire - contact me at <br />
-                  <a class="link" href="mailto:jcpsimmons@gmail.com">
+                  <a className="link" href="mailto:jcpsimmons@gmail.com">
                     jcpsimmons@gmail.com
                   </a>
                 </b>
               </p>
             </div>
-            <div class="col-xl-8">
+            <div className="col-xl-8">
               {/* card rows here */}
               <PortfolioBody />
             </div>
