@@ -107,10 +107,34 @@ const portfolioItems = [
 ];
 
 class PortfolioBody extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: null
+    };
+  }
+
+  componentWillMount() {
+    this.loadData();
+  }
+
+  loadData = () => {
+    fetch("../../data/projects-data/projects-data.json")
+      .then(res => {
+        this.setState({ data: res });
+        console.log(res.json());
+      })
+      .then(data => {
+        console.log(data);
+      })
+      .catch(err => console.log(err));
+  };
+
   render() {
     return (
       <div className="container">
-        <div className="card-columns">
+        {console.log(portfolioItems)}
+        {/* <div className="card-deck">
           {portfolioItems.map((item, index) => (
             <div className="card card-coloring mb-4 grow" id={index}>
               <a href={item.liveLink}>
@@ -150,7 +174,7 @@ class PortfolioBody extends Component {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     );
   }
