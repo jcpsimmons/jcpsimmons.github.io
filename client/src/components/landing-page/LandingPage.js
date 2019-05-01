@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Link, BrowserRouter } from "react-router-dom";
-import Portfolio from "../portfolio/Portfolio";
+import { BrowserRouter } from "react-router-dom";
 import CurriculumVitae from "../curriculum-vitae/CurriculumVitae";
 
 class LandingPage extends Component {
