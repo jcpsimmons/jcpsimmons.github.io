@@ -2,5 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 **.orig
-client/node_modules
+node_modules
 .vscode
