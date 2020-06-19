@@ -1,0 +1,128 @@
+{
+  "main": {
+    "name": "Josh Simmons",
+    "description": "Fullstack Engineer",
+    "image": "profilepic.png",
+    "bio": "Fullstack engineer with 5 years of professional experience. I enjoy working with React, Redux, Express, and Node.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "jcpsimmons@gmail.com",
+    "phone": "",
+    "github": "https://github.com/jcpsimmons",
+    "project": "https://github.com/nordicgiant2/react-nice-resume",
+    "address": {
+      "street": "",
+      "city": "Anaheim",
+      "state": "CA",
+      "zip": ""
+    },
+    "website": "https://jcsdesign.me",
+    "resumedownload": "./docs/Josh-Simmons-Resume_v200619.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/joshcsimmons",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/jcpsimmons",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Bowling Green State University",
+        "degree": "Masters",
+        "graduated": "Spring 2015",
+        "description": "Researched and developed novel algorithms for multimedia software."
+      },
+      {
+        "school": "Bowling Green State University",
+        "degree": "Bachelors",
+        "graduated": "Spring 2013",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Living Spaces Furniture",
+        "title": "Full Stack Developer",
+        "years": "May 2019 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "University of California Irvine",
+        "title": "Front End Developer",
+        "years": "2015 - 2019",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "VueJs",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "PHP",
+        "level": "80%"
+      },
+      {
+        "name": "Swift",
+        "level": "50%"
+      },
+      {
+        "name": "JAVA",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  }
+}
