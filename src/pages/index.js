@@ -33,12 +33,16 @@ const LinkHolder = styled.div`
   display: flex;
   justify-content: space-around;
   margin-top: 2rem;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 `;
 
 const linkData = [
-  { name: "Projects.", link: "/projects", fa: faImages },
-  { name: "About.", link: "/about", fa: faAddressCard },
-  { name: "Contact.", link: "/contact", fa: faPhone },
+  { name: "Projects", link: "/projects", fa: faImages },
+  { name: "About", link: "/about", fa: faAddressCard },
+  { name: "Contact", link: "/contact", fa: faPhone },
 ];
 
 const IndexPage = () => {
