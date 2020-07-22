@@ -8,18 +8,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { colors } from "../utility/colors";
 
 const LinkHolder = styled.div`
-  background: ${colors.darkgrey};
-  display: inline-block;
-  padding: 1.2rem;
-  border-radius: 100%;
-
+  background: ${colors.grey};
+  display: block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 5px;
+  border: 1px solid ${colors.tan};
   transition: box-shadow 0.5s;
   will-change: transform;
-  margin: 0 1rem 3rem;
-  width: 7.4rem;
+  margin: 0 1rem 2rem;
 
   &:hover {
     box-shadow: 6px 6px 44px 5px ${colors.teal};
+  }
+
+  & span {
+    font-family: "Raleway", "Courier New", Courier, monospace;
+    font-weight: 200;
   }
 
   & a {
@@ -27,11 +31,12 @@ const LinkHolder = styled.div`
     text-decoration: none;
   }
   & svg {
-    width: 3rem !important;
-    height: 3rem;
-    display: block;
+    width: 1rem !important;
+    height: 1rem;
+    display: inline;
     text-align: center;
     margin: auto;
+    margin-right: 0.5rem;
   }
 `;
 
@@ -59,7 +64,7 @@ export default function IndexLink({ name, link, fa }) {
       <LinkHolder>
         <a href={link}>
           <FontAwesomeIcon icon={fa} />
-          {name}
+          <span>{name}</span>
         </a>
       </LinkHolder>
     </animated.div>

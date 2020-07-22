@@ -17,8 +17,9 @@ import IndexLink from "../components/indexLink";
 
 const IndexContainer = styled.div`
   text-align: center;
+
   & > h1 {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
 `;
 
@@ -31,7 +32,7 @@ const ImageContainer = styled.div`
 
 const LinkHolder = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 2rem;
 
   @media (max-width: 767px) {
@@ -73,8 +74,6 @@ const IndexPage = () => {
             return <IndexLink key={`link_idx`} {...props} />;
           })}
         </LinkHolder>
-        {/* <Link to="/page-2/">Go to page 2</Link> <br /> */}
-        {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
       </IndexContainer>
     </Layout>
   );
