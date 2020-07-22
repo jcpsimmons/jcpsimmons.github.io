@@ -39,8 +39,7 @@ const MainStyle = styled.div`
     color: ${colors.orange};
   }
 
-  p,
-  span {
+  p {
     font-family: "Raleway", "Courier New", Courier, monospace;
     font-weight: 600;
   }

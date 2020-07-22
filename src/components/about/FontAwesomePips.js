@@ -9,6 +9,11 @@ const FaContainer = styled.div`
   margin: auto 0.75rem;
   width: 12rem;
   overflow: hidden;
+  transition: 0.25s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 
   pre {
     background: none;

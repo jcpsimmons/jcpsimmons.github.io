@@ -31,8 +31,18 @@ const AboutContainer = styled.div`
   h1 {
     display: inline-block;
   }
-  .tech > div {
+  h2 {
+    font-size: 3rem;
+  }
+  span {
+    color: ${colors.teal};
+  }
+  .tech {
     margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  .tech > div {
+    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -79,7 +89,9 @@ const About = () => (
         </p>
       </div>
       <div className="tech">
-        <h2>Tech I Enjoy Working With:</h2>
+        <h2>
+          Tech I <span>Enjoy</span> Working With:
+        </h2>
         <div>
           {tech.map((el, idx) => {
             return <FontAwesomePips id={`pip_${idx}`} {...el} />;
