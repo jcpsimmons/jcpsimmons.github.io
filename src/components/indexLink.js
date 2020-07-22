@@ -8,22 +8,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { colors } from "../utility/colors";
 
 const LinkHolder = styled.div`
-  background: ${colors.orange};
+  background: ${colors.darkgrey};
   display: inline-block;
-  padding: 1rem;
-  border-radius: 5px;
+  padding: 1.2rem;
+  border-radius: 100%;
 
   transition: box-shadow 0.5s;
   will-change: transform;
   margin: 0 1rem 3rem;
-  width: 7rem;
+  width: 7.4rem;
 
   &:hover {
-    box-shadow: 6px 6px 44px 5px #a93119;
+    box-shadow: 6px 6px 44px 5px ${colors.teal};
   }
 
   & a {
-    color: ${colors.grey};
+    color: ${colors.tan};
     text-decoration: none;
   }
   & svg {
