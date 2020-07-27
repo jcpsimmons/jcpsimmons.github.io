@@ -27,28 +27,40 @@ const CustomHeader = styled.header`
   }
 `;
 
-const Header = ({ siteTitle }) => (
-  <CustomHeader>
-    {" "}
-    <Link to="/">
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `.85rem 1.0875rem`,
-        }}
-      >
-        {" "}
-        {window.location.pathname == "/" ? (
-          ""
-        ) : (
-          <FontAwesomeIcon icon={faChevronLeft} size="lg" />
-        )}
-        <h1 style={{ margin: 0 }}>{siteTitle}</h1>
-      </div>
-    </Link>
-  </CustomHeader>
-);
+const Header = ({ siteTitle }) => {
+  const checkWindow = () => {
+    if (typeof window == "undefined") {
+      return false;
+    } else if (window.location.pathname == "/") {
+      return false;
+    } else {
+      return false;
+    }
+  };
+
+  return (
+    <CustomHeader>
+      {" "}
+      <Link to="/">
+        <div
+          style={{
+            margin: `0 auto`,
+            maxWidth: 960,
+            padding: `.85rem 1.0875rem`,
+          }}
+        >
+          {" "}
+          {window.location.pathname == "/" ? (
+            ""
+          ) : (
+            <FontAwesomeIcon icon={faChevronLeft} size="lg" />
+          )}
+          <h1 style={{ margin: 0 }}>{siteTitle}</h1>
+        </div>
+      </Link>
+    </CustomHeader>
+  );
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
