@@ -49,11 +49,10 @@ const Header = ({ siteTitle }) => {
             padding: `.85rem 1.0875rem`,
           }}
         >
-          {" "}
-          {window.location.pathname == "/" ? (
-            ""
-          ) : (
+          {checkWindow() ? (
             <FontAwesomeIcon icon={faChevronLeft} size="lg" />
+          ) : (
+            ""
           )}
           <h1 style={{ margin: 0 }}>{siteTitle}</h1>
         </div>
