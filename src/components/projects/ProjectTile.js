@@ -10,6 +10,7 @@ const PTContainer = styled.div`
   margin: 0 0.5rem 1rem;
   border-radius: 5px;
   padding: 1rem;
+  height: 50%;
   flex: 1 1 30%;
   p {
     font-size: 1rem;

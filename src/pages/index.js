@@ -36,6 +36,10 @@ const LinkHolder = styled.div`
   justify-content: center;
   margin-top: 2rem;
 
+  a {
+    text-decoration: none;
+  }
+
   @media (max-width: 767px) {
     flex-direction: column;
   }
@@ -72,7 +76,11 @@ const IndexPage = () => {
         </p>
         <LinkHolder>
           {linkData.map((props, idx) => {
-            return <IndexLink key={`link_idx`} {...props} />;
+            return (
+              <a href={props.link}>
+                <IndexLink key={`link_idx`} {...props} />
+              </a>
+            );
           })}
         </LinkHolder>
       </IndexContainer>
