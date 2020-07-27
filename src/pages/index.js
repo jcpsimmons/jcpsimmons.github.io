@@ -66,8 +66,8 @@ const IndexPage = () => {
         <p>
           My name is Josh. I'm a full stack developer with 5 years of experience
           specializing in JavaScript - primarily with{" "}
-          <FontAwesomeIcon icon={faReact} /> React and{" "}
-          <FontAwesomeIcon icon={faNodeJs} /> Node.
+          <FontAwesomeIcon icon={faReact} size="sm" /> React and{" "}
+          <FontAwesomeIcon icon={faNodeJs} size="sm" /> Node.
         </p>
         <LinkHolder>
           {linkData.map((props, idx) => {
