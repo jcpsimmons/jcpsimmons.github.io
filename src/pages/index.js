@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useSpring, animated } from "react-spring";
 
+import JumboPageHeader from "../components/global/JumboPageHeader";
 import IndexLink from "../components/indexLink";
 
 const IndexContainer = styled.div`
@@ -62,7 +63,7 @@ const IndexPage = () => {
             <ProfileImage />
           </ImageContainer>
         </animated.div>
-        <animated.h1>👋 Hello</animated.h1>
+        <JumboPageHeader>Hello,</JumboPageHeader>
         <p>
           My name is Josh. I'm a full stack developer with 5 years of experience
           specializing in JavaScript - primarily with{" "}

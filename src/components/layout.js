@@ -17,9 +17,11 @@ const MainStyle = styled.div`
   margin: 0;
   padding: 0;
   p {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     margin-bottom: 1rem;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
   }
   h1,
   h2,
@@ -32,14 +34,8 @@ const MainStyle = styled.div`
     font-style: italic;
     letter-spacing: 0.1rem;
   }
-  h1.jumbo {
-    white-space: nowrap;
-    font-size: 20vw;
-    font-weight: 200;
-    color: ${colors.orange};
-  }
-
-  p {
+  p,
+  footer {
     font-family: "Raleway", "Courier New", Courier, monospace;
     font-weight: 600;
   }

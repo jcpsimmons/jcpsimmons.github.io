@@ -2,6 +2,8 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 import { colors } from "../utility/colors";
 
@@ -11,6 +13,14 @@ const CustomHeader = styled.header`
   color: ${colors.grey};
   text-align: center;
 
+  & h1 {
+    margin: 0;
+    color: ${colors.orange}!important;
+  }
+  & svg {
+    float: left;
+    margin-top: 1%;
+  }
   a {
     text-decoration: none;
     color: ${colors.orange}!important;
@@ -19,17 +29,24 @@ const CustomHeader = styled.header`
 
 const Header = ({ siteTitle }) => (
   <CustomHeader>
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
-    </div>
+    {" "}
+    <Link to="/">
+      <div
+        style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `.85rem 1.0875rem`,
+        }}
+      >
+        {" "}
+        {window.location.pathname == "/" ? (
+          ""
+        ) : (
+          <FontAwesomeIcon icon={faChevronLeft} size="lg" />
+        )}
+        <h1 style={{ margin: 0 }}>{siteTitle}</h1>
+      </div>
+    </Link>
   </CustomHeader>
 );
 

@@ -19,6 +19,7 @@ import {
 
 import FontAwesomePips from "../components/about/FontAwesomePips";
 import { colors } from "../utility/colors";
+import JumboPageHeader from "../components/global/JumboPageHeader";
 
 const AboutContainer = styled.div`
   position: relative;
@@ -65,7 +66,7 @@ const About = () => (
   <Layout>
     <SEO title="About" />
     <AboutContainer>
-      <h1 className="jumbo">A-bout...</h1>
+      <JumboPageHeader>A-bout...</JumboPageHeader>
 
       <div>
         <p>

@@ -5,11 +5,17 @@ import styled from "styled-components";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
+import JumboPageHeader from "../components/global/JumboPageHeader";
 import ProjectTile from "../components/projects/ProjectTile";
 
 const TileContainer = styled.div`
+  margin-top: 1.5rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: start;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 `;
 
 const projectList = [
@@ -46,7 +52,7 @@ const Projects = () => (
   <Layout>
     <SEO title="Projects" />
 
-    <h1 className="jumbo">Projects.</h1>
+    <JumboPageHeader>Projects.</JumboPageHeader>
     <TileContainer>
       {projectList.map((props, idx) => {
         return <ProjectTile {...props} key={`pt_${idx}`} />;

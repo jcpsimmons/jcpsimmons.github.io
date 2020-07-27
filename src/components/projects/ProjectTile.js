@@ -7,10 +7,20 @@ import { colors } from "../../utility/colors";
 const PTContainer = styled.div`
   background: ${colors.tan};
   color: ${colors.grey};
-  margin: auto;
-  flex-basis: 30%;
+  margin: 0 0.5rem 1rem;
   border-radius: 5px;
   padding: 1rem;
+  flex: 1 1 30%;
+  p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: left;
+  }
+
+  h2 {
+    color: ${colors.orange};
+    margin-bottom: 0.5rem;
+  }
 
   hr {
     color: #bfada5;
@@ -32,6 +42,7 @@ const PTContainer = styled.div`
 
 const ImageContainer = styled.div`
   margin: auto;
+  margin-bottom: 1rem;
 `;
 
 export default function ProjectTile({ name, image, blurb, link }) {
