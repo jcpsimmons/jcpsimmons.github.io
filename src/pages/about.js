@@ -46,7 +46,7 @@ const AboutContainer = styled.div`
     margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 `;
 
@@ -54,7 +54,7 @@ const tech = [
   { fa: faReact, annotation: "React" },
   { fa: faNode, annotation: "Node" },
   { fa: faJsSquare, annotation: "JavaScript" },
-  { fa: faAws, annotation: "Amazon Web Services" },
+  { fa: faAws, annotation: `AWS` },
   { fa: faPython, annotation: "Python" },
   { fa: faUbuntu, annotation: "Linux (Ubuntu)" },
   { fa: faNpm, annotation: "NPM" },

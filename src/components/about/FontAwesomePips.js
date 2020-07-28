@@ -7,7 +7,7 @@ import { colors } from "../../utility/colors";
 const FaContainer = styled.div`
   display: block;
   margin: auto 0.75rem;
-  width: 12rem;
+  // width: 12rem;
   overflow: hidden;
   transition: 0.25s;
 

@@ -20,8 +20,8 @@ const MainStyle = styled.div`
     max-width: 800px;
     margin: auto;
     margin-bottom: 1rem;
-    font-size: 1.7rem;
-    line-height: 2.5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
   }
   h1,
   h2,
@@ -35,9 +35,14 @@ const MainStyle = styled.div`
     letter-spacing: 0.1rem;
   }
   p,
+  li,
   footer {
     font-family: "Raleway", "Courier New", Courier, monospace;
     font-weight: 600;
+  }
+
+  li {
+    text-align: left;
   }
 
   p > b,
@@ -59,6 +64,9 @@ const Footer = styled.footer`
   & > a {
     color: ${colors.teal};
     font-weight: 600;
+  }
+  & > * {
+    margin-bottom: 0;
   }
 `;
 
@@ -96,9 +104,12 @@ const Layout = ({ children }) => {
         </div>
       </MainStyle>{" "}
       <Footer>
-        © {new Date().getFullYear()} Josh C. Simmons, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <p>Proudly Made in America 🇺🇸</p>
+        <p>
+          © {new Date().getFullYear()} Josh C. Simmons, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </p>
       </Footer>
     </>
   );
